@@ -1,0 +1,153 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+* {
+   font-family: 'Monument Grotesk', 'BDO Grotesk', sans-serif;
+}
+
+/* Top bar styles */
+
+.top-bar {
+   display: flex;
+   background-color: #ff2878;
+   height: 80px;
+   color: #fff;
+   align-items: center;
+   justify-content: space-between;
+   padding: 16px;
+   gap: 4px;
+}
+
+.top-bar > div {
+   max-width: 50%;
+}
+
+.countdown-timer #time {
+   font-weight: 500;
+   line-height: 100%;
+   font-size: 15px;
+}
+
+.countdown-timer #time svg {
+   width: 14px;
+   height: 14px;
+   padding: 2px;
+}
+
+.button {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   gap: 4px;
+   border: none;
+   border-radius: 100px;
+   padding: 12px 16px;
+   font-weight: 500;
+   line-height: 1.5rem;
+   font-size: 16px;
+   cursor: pointer;
+}
+
+.cta-top-bar .button {
+   background-color: #fff;
+}
+
+.cta-container .button {
+   background-color: #ff2878;
+   color: #fff;
+}
+
+.cta-container .button svg {
+   width: 12px;
+   height: 12px;
+}
+
+/* Hero section */
+.hero {
+   padding: 48px 16px;
+}
+
+div.logo-container {
+   margin: 0 0 48px 0;
+}
+
+div.text-container,
+div.video-container {
+   margin: 0 0 32px 0;
+}
+
+h1.title {
+   font-weight: 500;
+   line-height: 100%;
+   font-size: 28px;
+   text-align: center;
+   padding-bottom: 8px;
+}
+
+h1 > .pre-title {
+   color: #0c9494;
+   font-size: 24px;
+   padding-bottom: 12px;
+   font-style: italic;
+}
+
+.text-container > p {
+   font-size: 18px;
+   text-align: center;
+   font-weight: 400;
+   color: #0f1a20;
+}
+
+/* CTA section */
+
+.cta-container {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+
+.price {
+   display: flex;
+   align-items: center;
+   gap: 23px;
+   color: #0f1a20;
+   padding: 0 4px;
+   margin: 0 0 24px 0;
+}
+
+.price > p {
+   display: flex;
+   align-items: center;
+   gap: 4px;
+}
+
+.price .final-price {
+   font-weight: 500;
+   line-height: 40px;
+   font-size: 32px;
+}
+
+.price .original-price {
+   font-weight: 400;
+   line-height: 100%;
+   font-size: 18px;
+   text-decoration: line-through;
+}
+
+.price .discount {
+   font-weight: 500;
+   line-height: 20px;
+   font-size: 14px;
+   color: #3b6276;
+}
+
+.cta-container .info-container p {
+   font-weight: 500;
+   line-height: 20px;
+   font-size: 14px;
+   color: #0f1a20;
+   margin: 16px 0 0 0;
+}
