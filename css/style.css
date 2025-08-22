@@ -455,4 +455,5 @@ footer .rrss-container {
    gap: 60px;
    flex-wrap: wrap;
    justify-content: center;
+   align-items: center;
 }
