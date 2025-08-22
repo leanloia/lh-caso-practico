@@ -335,3 +335,124 @@ h1 > .pre-title {
 .modulo .contenido > .inactive {
    display: none;
 }
+
+/* Boost CV section */
+.boost-cv.section {
+   padding: 56px 32px;
+}
+
+.boost-cv.section > .text-container {
+   margin: 0 0 40px 0;
+}
+
+.boost-cv.section h2 {
+   font-size: 25px;
+   font-weight: 500;
+   text-align: center;
+   margin: 0 0 16px 0;
+}
+
+.boost-cv.section > .text-container p {
+   margin: 0;
+   text-align: center;
+   font-size: 16px;
+}
+
+.boost-cv.section > .image-container img {
+   width: 100%;
+}
+
+/* Únete section */
+.unete.section {
+   padding: 56px 16px;
+}
+
+.unete.section > .text-container {
+   margin: 0 0 40px 0;
+}
+
+.unete.section > .text-container > h2 {
+   font-size: 25px;
+   font-weight: 500;
+   text-align: center;
+   margin: 8px 0 0 0;
+   line-height: 32px;
+}
+
+.unete.section > .text-container > p:first-child {
+   color: #ff2878;
+   font-weight: 500;
+   font-size: 20px;
+}
+
+/* ---------------------- */
+
+/* Testimonios section */
+.slider {
+   display: flex;
+   gap: 24px;
+   overflow: hidden;
+}
+
+.slider-buttons {
+   display: flex;
+   justify-content: flex-end;
+   margin: 40px 0 0 0;
+}
+
+.testimonial .content-container {
+   padding: 8px 0 0 0;
+}
+
+.testimonial .content-container > p:nth-child(2) {
+   margin: 0;
+   font-size: 16px;
+   color: #0f1a20;
+}
+
+.testimonial .content-container > p:nth-child(3) {
+   margin: 24px 0 0 0;
+   font-size: 18px;
+   color: #0f1a20;
+   font-weight: 500;
+}
+
+.testimonial .content-container > p:nth-child(4) {
+   margin: 0;
+   font-size: 16px;
+   color: #243f4c;
+}
+
+/* Footer */
+footer {
+   padding: 80px 40px;
+   background-color: #0f1a20;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   gap: 60px;
+}
+
+footer .logo-container {
+   margin: 0;
+}
+
+footer .links-container {
+   display: flex;
+   flex-direction: column;
+   gap: 40px;
+   text-align: center;
+}
+
+footer .links-container a {
+   color: #e9eced;
+   font-size: 20px;
+   text-decoration: none;
+}
+
+footer .rrss-container {
+   display: flex;
+   gap: 60px;
+   flex-wrap: wrap;
+   justify-content: center;
+}
