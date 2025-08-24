@@ -142,6 +142,10 @@ h1 > .pre-title {
       margin: 0 !important;
    }
 
+   .hero div.logo-container svg path {
+      fill: #096a6a;
+   }
+
    h1.title {
       font-size: 45px;
    }
