@@ -53,6 +53,7 @@ body {
 
 .cta-top-bar .button {
    background-color: #fff;
+   color: #000;
 }
 
 .cta-container .button {
@@ -405,6 +406,7 @@ div.cta-container .info-container p {
    display: flex;
    justify-content: space-between;
    align-items: center;
+   cursor: pointer;
 }
 
 .modulo .titulo > h4 {
